@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e
+[ -n "$PYENV_DEBUG" ] && set -x
+
+program="${0##*/}"
+
+export PYENV_ROOT="/home/yun/.pyenv"
+exec "/home/yun/.pyenv/libexec/pyenv" exec "$program" "$@"
