@@ -4,7 +4,8 @@ include: "rules/tsdate_tsinfer_50_arg.smk"
 include: "rules/tsdate_tsinfer_300_arg.smk"
 include: "rules/relate_50_arg.smk"
 include: "rules/relate_300_arg.smk"
-
+include: "rules/argweaver_50_arg.smk"
+include: "rules/arg_needle_300_arg.smk"
 
 rule all:
     input:
@@ -15,4 +16,6 @@ rule all:
         tsdate_tsinfer_50_arg = expand("results/tsdate_tsinfer_ts/tsdate_tsinfer_50_{x}.trees", x=range(10)),
         tsdate_tsinfer_300_arg = expand("results/tsdate_tsinfer_ts/tsdate_tsinfer_300_{x}.trees", x=range(10)),
         relate_50_arg = expand("results/relate_ts/relate_50_{x}.trees", x=range(10)),
-        relate_300_arg = expand("results/relate_ts/relate_300_{x}.trees", x=range(10))
+        relate_300_arg = expand("results/relate_ts/relate_300_{x}.trees", x=range(10)),
+        argweaver_50_arg = expand("results/argweaver_ts/argweaver_50_{x}.trees", x=range(10)),
+        arg_needle_300_arg = expand("results/arg_needle_ts/arg_needle_300_{x}.trees", x=range(10))
