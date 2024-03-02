@@ -167,7 +167,7 @@ def get_new_order(filename):
         order.append(order_map[i])
     return order
 
-def convert_smc_to_trees(folder_path, prefix, indices):
+def convert_smc_to_trees(prefix, indices):
     for index in indices:
         # Construct the paths for the .smc and .trees files
         smc_path = f"{prefix}.{index}.smc"
