@@ -181,5 +181,5 @@ def convert_smc_to_trees(prefix, indices):
 
 index = int(snakemake.wildcards["x"])
 convert_tree_sequences_to_sites(f"results/simulated_ts/sim_50_{index}.trees", f"results/argweaver_ts/sim_50_{index}.sites")
-run_argweaver_on_sites(f"results/argweaver_ts/sim_50_{index}.sites", f"results/argweaver_ts/argweaver_50_{index}", m=1.2e-8, r=1.2e-8)
+run_argweaver_on_sites(f"results/argweaver_ts/sim_50_{index}.sites", f"results/argweaver_ts/argweaver_50_{index}", m=2e-8, r=2e-8)
 convert_smc_to_trees(f"results/argweaver_ts/argweaver_50_{index}", range(1000, 3000, 40))

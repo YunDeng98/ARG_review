@@ -60,6 +60,6 @@ def convert_arg_needle_to_tskit(folder_name, prefix):
 index = int(snakemake.wildcards["x"])
 subprocess.run(f"cp results/relate_ts/sim_300_{index}.haps results/arg_needle_ts/sim_300_{index}.haps", shell=True)
 subprocess.run(f"cp results/relate_ts/sim_300_{index}.sample results/arg_needle_ts/sim_300_{index}.sample", shell=True)
-generate_plink_maps("results/arg_needle_ts", f"sim_300_{index}", 1.2)
+generate_plink_maps("results/arg_needle_ts", f"sim_300_{index}", 2)
 run_arg_needle("results/arg_needle_ts", f"sim_300_{index}", f"arg_needle_300_{index}")
 convert_arg_needle_to_tskit("results/arg_needle_ts", f"arg_needle_300_{index}")

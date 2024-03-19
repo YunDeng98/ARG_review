@@ -4,8 +4,8 @@ index = int(snakemake.wildcards["x"])
 
 num_individuals = 25
 sequence_length = 10e6  # 10 Mb
-mutation_rate = 1.2e-8
-recombination_rate = 1.2e-8
+mutation_rate = 2e-8
+recombination_rate = 2e-8
 
 seed = index * 12345 + 67890 
 

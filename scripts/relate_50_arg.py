@@ -16,8 +16,8 @@ index = int(snakemake.wildcards["x"])
 generate_map_file(1.2e-8, f"results/relate_ts/50_{index}_map_file.txt")
 
 # Set the parameters for Relate inference
-mutation_rate = 1.2e-8
-recombination_rate = 1.2e-8
+mutation_rate = 2e-8
+recombination_rate = 2e-8
 pop_size = 1e4
 
 relate_convert_vcf = f"relate_v1.2.1_x86_64_static/bin/RelateFileFormats --mode ConvertFromVcf --haps results/relate_ts/sim_50_{index}.haps --sample results/relate_ts/sim_50_{index}.sample -i results/simulated_vcf/sim_50_{index}"
