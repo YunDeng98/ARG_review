@@ -16,4 +16,4 @@ Rscript makePlot.R
 ```
 This will produce a set of histograms of pairwise TMRCAs for each population (identical to Figure 6A). It assumes the files produced in the previous step are in the current working directory. The values of -1 in the lists are stripped out.
 
-Feel free to contact [Andrew Vaughn](ahv36@berkeley.edu) if you have questions about this analysis.
+Feel free to contact [Andrew Vaughn](mailto:ahv36@berkeley.edu) if you have questions about this analysis.
