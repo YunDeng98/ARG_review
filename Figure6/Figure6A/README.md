@@ -8,6 +8,7 @@
 python getTMRCA.py 
 ```
 This will generate 4 files. "Quechua.csv", "GBR.csv", "YRI.csv", and "CHB.csv". Each file lists the pairwise TMRCAs for a set of individuals from that population, taken every 10 kilobases across the genome. Some extra values of "-1" are appended to each list of times (for code-specific reasons).
+
 4) Run
 
 ```
