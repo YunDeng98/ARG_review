@@ -38,4 +38,4 @@ Rscript PlotCoals.R
 This will produce the Relate-estimated historic population sizes for each of the 4 populations, as shown in Figure 6B.
 
 
-Feel free to contact [Andrew Vaughn](ahv36@berkeley.edu) if you have questions about this analysis.
+Feel free to contact [Andrew Vaughn](mailto:ahv36@berkeley.edu) if you have questions about this analysis.
