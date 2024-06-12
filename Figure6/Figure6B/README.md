@@ -15,7 +15,7 @@ PATHTORELATE/bin/RelateFileFormats --mode ConvertFromVcf --haps Input.haps --sam
 This filters the full dataset for our relevant subset of IDs and converts the format to the input format for Relate
 
 
-3) Obtain the chromosome 1 human ancestral sequence "human_ancestor_1.fa" from [https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase1/analysis_results/supporting/ancestral_alignments/](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase1/analysis_results/supporting/ancestral_alignments/). We provide thr strict genomic mask "20140520.chr1.strict_mask.fasta" from [https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/accessible_genome_masks/StrictMask/](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/accessible_genome_masks/StrictMask/)  and the genetic map "genetic_map_chr1_combined_b37.txt" which has been converted to the file format required by Relate.
+3) Obtain the chromosome 1 human ancestral sequence "human_ancestor_1.fa" from [https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase1/analysis_results/supporting/ancestral_alignments/](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase1/analysis_results/supporting/ancestral_alignments/). We provide the strict genomic mask "20140520.chr1.strict_mask.fasta" from [https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/accessible_genome_masks/StrictMask/](https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/supporting/accessible_genome_masks/StrictMask/)  and the genetic map "genetic_map_chr1_combined_b37.txt" which has been converted to the file format required by Relate.
 
 4) Run
 
