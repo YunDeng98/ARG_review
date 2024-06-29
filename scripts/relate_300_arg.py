@@ -13,7 +13,7 @@ def generate_map_file(r, map_file_path="map_file.txt"):
 # Extract the index from the command line arguments
 index = int(snakemake.wildcards["x"])
 
-generate_map_file(1.2e-8, f"results/relate_ts/300_{index}_map_file.txt")
+generate_map_file(2e-8, f"results/relate_ts/300_{index}_map_file.txt")
 
 # Set the parameters for Relate inference
 mutation_rate = 2e-8
