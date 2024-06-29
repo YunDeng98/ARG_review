@@ -10,3 +10,4 @@ The Figures can be found at:
 ```
 results/figures/
 ```
+Figure 6 can be reproduced by instructions under the `Figure 6` Folder. 
